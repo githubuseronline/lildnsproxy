@@ -1,7 +1,8 @@
 
-//
-// Created by neitsab on 09.03.17.
-//
+/*
+ * Created by neitsab on 09.03.17.
+ */
+
 /* 
  * Make dnsproxy a daemon and checking there is only 
  * one instanse executing at moment using pid file.
