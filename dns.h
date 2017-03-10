@@ -6,5 +6,6 @@
 #define START_DNS_H
 
 int daemonize(void);
+int read_conf(const char*, char*);
 
 #endif //START_DNS_H
