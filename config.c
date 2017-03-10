@@ -39,11 +39,11 @@ int read_conf(const char *file_name, char *remote)
             }
         }
 
-        if (*line == '#') {
+        if (*line_start == '#') {
             continue;
         }
 
-        if (!start_with(line, "nameserver")) {
+        if (!start_with(line_start, "nameserver")) {
             continue;
         }
 
